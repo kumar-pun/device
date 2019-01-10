@@ -20,7 +20,7 @@ type Device struct {
 }
 
 var devices = []Device{
-	Device{Id: 1, Name: "Jan Doe", Device: "mac", Project: "Vivint"},
+	Device{Id: 1, Name: "Kumar pun", Device: "mac", Project: "Vivint"},
 }
 
 type Response struct {
@@ -42,7 +42,7 @@ func HttpInfo(r *http.Request) {
 }
 
 func main() {
-	fmt.Println("Api rodando na porta 3000...")
+	fmt.Println("Api running on port 3000...")
 
 	r := mux.NewRouter().StrictSlash(true)
 
